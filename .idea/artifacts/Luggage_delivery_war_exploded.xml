@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Luggage_delivery:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Luggage_delivery_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Luggage_delivery" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.19.4" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.30" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.16.0" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.16.0" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      </element>
+    </root>
+  </artifact>
+</component>
